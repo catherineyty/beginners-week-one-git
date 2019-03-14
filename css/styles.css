@@ -1,0 +1,83 @@
+body{
+     color: rgb(65, 75, 86);
+     font-family: arial;
+     margin: 0px;
+}
+/*command +slash to add comment function  */
+
+div{
+  min-height:50vh;
+  /* the minimum height and width will be as tall(50%) and as width (100%)as the screen */
+  width: 100vw;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+h1{
+  font-size: 5em;
+}
+
+h2{
+  font-size: 2.5em;
+}
+
+img{
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+/* margin:0 auto means asking the system to automatically set the margin which means to the middle of the page */
+  border-radius: 130px;
+}
+
+p{
+  width: 40%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+
+a{
+  color: rgb(0,0,0);
+}
+
+ol{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#lower{
+  margin-top:7%;
+}
+
+#lower{
+  margin-bottom:14%;
+}
+
+div.contrast{
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+}
+
+li:hover{
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
